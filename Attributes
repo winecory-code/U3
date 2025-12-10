@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>U3M3L2Att</title>
+
+    <style>
+        /* Hide the first division */
+        #divOne {
+            display: none;
+        }
+
+        /* Style for blue background divisions */
+        .bckBlue {
+            background-color: lightblue;
+            padding: 5px;
+            margin: 3px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="divOne">one</div>
+    <div id="divTwo">two</div>
+    <div id="divThree">three</div>
+    <div id="divFour" class="bckBlue">four</div>
+    <div id="divFive" class="bckBlue"><em>fi</em>ve</div>
+
+</body>
+</html>
