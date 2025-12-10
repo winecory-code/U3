@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Module 8 Lists</title>
+</head>
+<body>
+
+    <h1>Ordered List</h1>
+    <ol>
+        <li>Put the dry ingredients.</li>
+        <li>Put in the wet ingredients.</li>
+        <li>Stir</li>
+        <li>Bake at 350&deg; for one hour</li>
+    </ol>
+
+    <h1>Unordered List</h1>
+    <ul>
+        <li>Milk</li>
+        <li>Eggs</li>
+        <li>Cheese</li>
+        <li>Flour</li>
+    </ul>
+
+    <h1>Challenge (Optional)</h1>
+
+    <h2>Day One</h2>
+    <ul>
+        <li>Breakfast – eggs</li>
+        <li>Lunch – grilled cheese</li>
+        <li>Dinner – grilled burgers</li>
+    </ul>
+
+    <h2>Day Two</h2>
+    <ul>
+        <li>Breakfast – pancakes</li>
+        <li>Lunch – soup</li>
+        <li>Dinner – baked ziti</li>
+    </ul>
+
+    <h2>Day Three</h2>
+    <ul>
+        <li>Breakfast – French toast</li>
+        <li>Lunch – steak tartare</li>
+        <li>Dinner – Massimo Capra chicken</li>
+    </ul>
+
+</body>
+</html>
