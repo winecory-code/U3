@@ -8,26 +8,29 @@
 
 <h2>Sample Table</h2>
 
-<table border="1" cellpadding="10">
-    <tr>
-        <th>First Name</th>
-        <th>Last Name</th>
-        <th>Grade</th>
+<Gorceries>
+    <table>
+        <th>Apple</th>
+        <th>Price</th>
+        <th>Quanity</th>
+        <th>Aisle Number<th>  
     </tr>
     <tr>
-        <td>John</td>
-        <td>Smith</td>
-        <td>9</td>
+        <td>Mlik</td>
+        <td>3.00$</td>
+        <td>A3</td>
     </tr>
     <tr>
-        <td>Sarah</td>
-        <td>Lee</td>
-        <td>10</td>
+        <td>Whole Wheat bread</td>
+        <td>$2.85</td>
+        <td>1</td>
+        <td<A5/td>
     </tr>
     <tr>
-        <td>Marcus</td>
-        <td>Brown</td>
-        <td>11</td>
+        <td>Carrots</td>
+        <td>$2.00</td>
+        <td>2</td>
+        <td>C2/td>
     </tr>
 </table>
 
