@@ -1,4 +1,18 @@
-htmlCopy&lt;!DOCTYPE html&gt;<br>
+htmlCopy<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8">
+
+<title>My Name | home page</title>
+
+</head>
+
+<body>
+
+&lt;!DOCTYPE html&gt;<br>
 
 &lt;html&gt;<br>
 
@@ -11,3 +25,14 @@ htmlCopy&lt;!DOCTYPE html&gt;<br>
 &lt;/head&gt;<br>
 
 &lt;body&gt;<br>
+
+Hello, this is a example of &lt;em&gt;html&lt;/em&gt; text.<br>
+
+&lt;/body&gt;<br>
+
+&lt;/html&gt;
+
+</body>
+
+</html>
+
