@@ -1,0 +1,40 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Module 6 – Displaying HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Displaying HTML Code on a Web Page</h1>
+
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;meta charset="utf-8"&gt;
+    &lt;title&gt;My Name | home page&lt;/title&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    Hello,
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
