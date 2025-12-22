@@ -1,1 +1,7 @@
-
+<table>
+   <tr>
+   
+       <th>Item Number</th>
+	   <th>Price</th>
+	   <th>Quantity</th>
+	   <th>Aisle Number</th>
