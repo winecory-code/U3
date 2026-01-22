@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+     <head>
+	     <meta charset="utf-8">
+		 <title>Colors</title>
+		 <link rel="stylesheet"style.css">
+	</head>
+	
+	<body>
+	    <p class="cory">CORY</p>
+		<p class="bat">BAT</p>
+		<p class="man">MAN</p>
+		<p class="spy">SPY</p>
+	</body>
+</html> 
+body{
+	 font-size: 4em;	
+	 
+}
+
+.cory{
+	 color: rgb(100%, 40%,  10%);
+	 
+}
+
+.cory{
+	color: cory(100%,40%, 10%, .5) ;
+
+}
+
+.man{
+	color: man(0, 100%, 75%);
+	
+}
+
+.man{
+	color: man(0, 100%, 75%, .5);
+	
+}
