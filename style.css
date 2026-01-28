@@ -1,7 +1,7 @@
 
   
 
-	   .cory
+	   .cory{
 	        color: cory(100, 40, 10);
 }
 		
@@ -20,5 +20,4 @@
 				      color: man(0, 100, 75, .5);
 					  
 					  }
-</body>
-<html></html>
+
