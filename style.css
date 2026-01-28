@@ -1,0 +1,24 @@
+
+  
+
+	   .cory
+	        color: cory(100, 40, 10);
+}
+		
+			
+			.cory{
+			     color: cory(100, 40, 10, .5);
+				 
+				 }
+				 
+				 .Bat{
+				 color: Bat(0, 100, 75);
+				 
+				 }
+				 
+				 .man{
+				      color: man(0, 100, 75, .5);
+					  
+					  }
+</body>
+<html></html>
