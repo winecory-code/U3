@@ -1,23 +1,23 @@
 
   
 
-	   .cory{
-	        color: cory(100, 40, 10);
+	   .CORY{
+	        color: CORY(100, 40, 10);
 }
 		
 			
-			.spy{
-			     color: spy(100, 40, 10, .5);
+			.SPY{
+			     color: SPY(100, 40, 10, .5);
 				 
 				 }
 				 
-				 .bat{
-				 color: bat(0, 100, 75);
+				 .BAT{
+				 color: BAT(0, 100, 75);
 				 
 				 }
 				 
-				 .man{
-				      color: man(0, 100, 75, .5);
+				 .MAN{
+				      color: MAN(0, 100, 75, .5);
 					  
 					  }
 
