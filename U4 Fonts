@@ -1,0 +1,19 @@
+<!DOCTYPE>
+
+<hmtl lang="en">
+     <head>
+	 
+	 <meta charset="utf-8">
+	 <title>Setting Font Size</title>
+	 
+	   <style>
+	      p{
+	       font-size: 3em;        
+	    }
+	   </style>
+</head>
+	
+	<body>
+	       <p>Cory</p>
+	 <body>
+	 </html>
