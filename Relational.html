@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Relational Selectors Demo</title>
+
+    <style>
+        /* 1. DESCENDANT SELECTOR */
+        section p {
+            color: blue;
+        }
+
+        /* 2. ADJACENT SIBLING SELECTOR */
+        h1 + p {
+            color: red;
+        }
+
+        /* 3. CHILD SELECTOR */
+        section > p {
+            border: 2px solid green;
+        }
+
+        /* 4. GENERAL SIBLING SELECTOR */
+        h2 ~ p {
+            background-color: yellow;
+        }
+    </style>
+
+</head>
+<body>
+
+    <h1>Adjacent Sibling Example</h1>
+    <p>This paragraph is RED because it comes right after h1.</p>
+    <p>This one is NOT red because it is not directly after h1.</p>
+
+    <h2>General Sibling Example</h2>
+    <p>This paragraph is YELLOW because it follows h2.</p>
+    <p>This one is ALSO yellow.</p>
+
+    <section>
+        <h3>Descendant & Child Example</h3>
+
+        <p>This paragraph is BLUE and has a GREEN BORDER (child of section).</p>
+
+        <div>
+            <p>This paragraph is BLUE but NO BORDER (descendant but NOT direct child).</p>
+        </div>
+    </section>
+
+</body>
+</html>
