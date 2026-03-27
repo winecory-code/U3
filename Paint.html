@@ -1,39 +1,76 @@
 <html>
 <head>
 <style>
-span.one {
-    color: yellow;
-}
-
-span.three {
-    color: white;
-}
-
 body {
     background: black;
     font-family: monospace;
+    line-height: 1;
 }
+
+.row {
+    height: 16px;
+}
+
+.pixel {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+}
+
+/* Colors */
+.red { background: red; }
+.green { background: green; }
+.yellow { background: yellow; }
+.blue { background: blue; }
+.orange { background: orange; }
+.white { background: white; }
+.black { background: black; }
 </style>
 </head>
 
 <body>
 
-<!-- Row example -->
-<span class="three">x</span><span class="three">x</span><span class="three">x</span>
-<span class="one">x</span><span class="one">x</span><span class="one">x</span>
-<span class="three">x</span><span class="three">x</span><span class="three">x</span>
+<!-- ROW 1 -->
+<div class="row">
+<div class="pixel red"></div><div class="pixel red"></div><div class="pixel red"></div>
+<div class="pixel red"></div><div class="pixel red"></div><div class="pixel red"></div>
+<div class="pixel yellow"></div><div class="pixel yellow"></div>
+<div class="pixel red"></div><div class="pixel red"></div><div class="pixel red"></div>
+</div>
 
-<br>
+<!-- ROW 2 -->
+<div class="row">
+<div class="pixel red"></div><div class="pixel red"></div>
+<div class="pixel green"></div><div class="pixel green"></div><div class="pixel green"></div>
+<div class="pixel red"></div><div class="pixel red"></div>
+</div>
 
-<span class="three">x</span><span class="one">x</span><span class="one">x</span>
-<span class="one">x</span><span class="one">x</span><span class="one">x</span>
-<span class="three">x</span>
+<!-- ROW 3 -->
+<div class="row">
+<div class="pixel red"></div><div class="pixel red"></div><div class="pixel red"></div>
+<div class="pixel red"></div><div class="pixel red"></div><div class="pixel red"></div>
+</div>
 
-<br>
+<!-- ROW 4 -->
+<div class="row">
+<div class="pixel red"></div><div class="pixel red"></div>
+<div class="pixel orange"></div>
+<div class="pixel red"></div><div class="pixel red"></div>
+</div>
 
-<span class="three">x</span><span class="three">x</span><span class="three">x</span>
-<span class="three">x</span><span class="three">x</span>
+<!-- ROW 5 -->
+<div class="row">
+<div class="pixel red"></div>
+<div class="pixel blue"></div><div class="pixel blue"></div><div class="pixel blue"></div>
+<div class="pixel blue"></div>
+<div class="pixel red"></div>
+</div>
+
+<!-- ROW 6 -->
+<div class="row">
+<div class="pixel red"></div><div class="pixel red"></div><div class="pixel red"></div>
+<div class="pixel red"></div><div class="pixel red"></div><div class="pixel red"></div>
+</div>
 
 </body>
 </html>
-
