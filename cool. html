@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bat Cave</title>
+    <style>
+        /* This container holds both the image and the text */
+        .container {
+            position: relative;
+            text-align: center;
+            color: white; /* Makes text readable on dark images */
+            font-family: sans-serif;
+            display: inline-block; /* Keeps container same size as image */
+        }
+
+        /* This moves the text to the top-middle of the image */
+        .centered-text {
+            position: absolute;
+            top: 10%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 40px;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px #000000; /* Adds a glow/shadow so you can see it */
+            width: 100%;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWR2czV1NHUyNjd1NmY2ajRjeWFpNTJoNDR5eDEzeWlxNHl5cXRuMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KoqELgssTdL7a/giphy.gif" alt="Bat Cave">
+        <div class="centered-text">The Bat Cave</div>
+    </div>
+
+</body>
+</html>
