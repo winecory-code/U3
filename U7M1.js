@@ -24,16 +24,6 @@
 <script type="textjavascript" src="my_code.js"></script>
 <body>
 
-$(document).ready(function() {
-  // hide the p tags
-  $("p").hide();
-
-  $("h1).click(function() {
-  $(this).next().slideToggle(300) ;
-  });
-  });
-
-
 
   
 
