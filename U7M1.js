@@ -20,9 +20,10 @@
 <h1>Heading three</h1>
 <p>This is text for heading 3</p>
 
-<script type='text/javascript" src="http://code.jquery.com/jquery-1.8.0.m
+<script type='text/javascript" src="http://code.jquery.com/jquery-1.8.0.min.js"></script>
 <script type="textjavascript" src="my_code.js"></script>
-<body>
+  </body> 
+  </html>
 
 
 
